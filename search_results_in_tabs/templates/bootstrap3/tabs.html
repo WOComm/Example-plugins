@@ -1,0 +1,23 @@
+<patTemplate:tmpl name="pageoutput" unusedvars="strip">
+
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Hotels</a></li>
+  <li><a data-toggle="tab" href="#menu1">Yachts</a></li>
+  <li><a data-toggle="tab" href="#menu2">Camp sites</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>Hotels</h3>
+    <p>{jomres_script search &ptype=1}</p>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Yachts</h3>
+    <p>{jomres_script search &ptype=2}</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>Camp sites</h3>
+    <p>{jomres_script search &ptype=4}</p>
+  </div>
+</div>
+</patTemplate:tmpl>
