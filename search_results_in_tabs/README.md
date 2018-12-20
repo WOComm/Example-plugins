@@ -13,9 +13,9 @@ To see it displayed using the technique I linked to above, you would use
 
 {jomres_script search &ptype=1}
 
-in the template file. See below for examples.
+in the template file (/templates/bootstrap3/tabs.html).
 
-To display these tabs in a content item you would do 
+To display these tabs in a content item in the CMS (including in widgets/modules) you would do 
 
 {jomres search_results_in_tabs} (Joomla) or [jomres search_results_in_tabs] (Wordpress) in the content item.
 
